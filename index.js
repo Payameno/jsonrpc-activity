@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // This is Alchemy API URL which communicates with the node client
-const ALCHEMY_URL = "";
+const ALCHEMY_URL = "https://eth-mainnet.g.alchemy.com/v2/gCcE7E6A9zRPwfL3pyDvouxFNc_ZzLYD";
 
 axios.post(ALCHEMY_URL, {
   jsonrpc: "2.0",
